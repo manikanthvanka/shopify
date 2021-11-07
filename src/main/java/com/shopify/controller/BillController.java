@@ -4,6 +4,8 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
@@ -20,6 +22,9 @@ import com.shopify.service.BillService;
 @RestController
 public class BillController {
 
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
+
+	
 	@Autowired
 	private BillService billService;
 
