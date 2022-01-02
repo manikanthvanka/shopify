@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: ZLFgIaqBro
-    url: jdbc:mysql://remotemysql.com:3306/h4GoT8Fnqu?useSSL=false
-    username: h4GoT8Fnqu
+    password: gRHWJt88R5
+    url: jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6462407?useSSL=false
+    username: sql6462407
   jpa:
     hibernate:
       ddl-auto: update
